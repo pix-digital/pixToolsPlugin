@@ -1,0 +1,15 @@
+all:
+  pixTools:
+    cookie_name: your_cookie_name
+
+  pixContact:
+    email_subject: '[client] Formulaire de contact'
+    email_from: you@domain.com
+    email_to: you@domain.com
+    email_bcc: [you@domain.com]
+
+  pixNewsletter:
+    email_subject: '[client] Formulaire de contact'
+    email_from: you@domain.com
+    email_to: you@domain.com
+    email_bcc: [you@domain.com]

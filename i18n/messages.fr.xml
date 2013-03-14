@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+<file source-language="en" target-language="fr" datatype="plaintext" original="messages">
+    <body>
+        <trans-unit>
+            <source>label_titre_formulaire</source>
+            <target>Contact</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_title</source>
+            <target>Civilité</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_lastname</source>
+            <target>Nom</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_firstname</source>
+            <target>Prénom</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_address</source>
+            <target>Adresse</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_postcode</source>
+            <target>Code postal</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_city</source>
+            <target>Ville</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_country</source>
+            <target>Pays</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_phone</source>
+            <target>Téléphone</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_email</source>
+            <target>E-mail</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_comments</source>
+            <target>Commentaires</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_option_mme</source>
+            <target>Mme</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_option_mlle</source>
+            <target>Mlle</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_option_mr</source>
+            <target>M.</target>
+        </trans-unit>
+        <trans-unit>
+            <source>label_contact_confirmation_envoi</source>
+            <target>Votre formulaire a bien été envoyé</target>
+        </trans-unit>
+        <trans-unit>
+            <source>Required.</source>
+            <target>Ce champ est obligatoire.</target>
+        </trans-unit>
+    </body>
+</file>
+</xliff>
