@@ -16,7 +16,7 @@ Enable the plugin in your ProjectConfiguration.class.php
     [php]
     public function setup()
     {
-        $this->enablePlugin('pixSeoPlugin');
+        $this->enablePlugin('pixToolsPlugin');
     }
     
 Rebuild your model

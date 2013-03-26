@@ -8,7 +8,7 @@ Contact:
     firstname: { type: string(255), notnull: false }
     phone: { type: string(255), notnull: true }
     email: { type: string(255), notnull: true }
-    societe: { type: string(255), notnull: false }
+    company: { type: string(255), notnull: false }
     address: { type: string(255), notnull: false }
     postcode: { type: string(50), notnull: true }
     city: { type: string(255), notnull: true }

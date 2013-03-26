@@ -15,15 +15,25 @@ class pixToolsRouting
      * @param sfEvent An sfEvent instance
      * @static
      */
-    static public function listenToRoutingLoadConfigurationEvent(sfEvent $event)
+    static public function listenToNewsletterRoutingEvent(sfEvent $event)
     {
         $r = $event->getSubject();
 
         // preprend our routes
-        $r->prependRoute('pix_contact', new sfRoute('/:sf_culture/contact', array('module' => 'pixContact', 'action' => 'index')));
-        $r->prependRoute('pix_contact_validation', new sfRoute('/:sf_culture/contact/validation', array('module' => 'pixContact', 'action' => 'create')));
+
         $r->prependRoute('pix_newsletter_validation', new sfRoute('/:sf_culture/newsletter/validation', array('module' => 'pixNewsletter', 'action' => 'create')));
         $r->prependRoute('pix_newsletter_confirmation', new sfRoute('/:sf_culture/newsletter/confirmation', array('module' => 'pixNewsletter', 'action' => 'confirmation')));
     }
+
+    static public function listenToContactRoutingEvent(sfEvent $event)
+    {
+        $r = $event->getSubject();
+
+        // preprend our routes
+
+        $r->prependRoute('pix_contact', new sfRoute('/:sf_culture/contact', array('module' => 'pixContact', 'action' => 'index')));
+        $r->prependRoute('pix_contact_validation', new sfRoute('/:sf_culture/contact/validation', array('module' => 'pixContact', 'action' => 'create')));
+    }
+
 
 }
