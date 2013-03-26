@@ -43,7 +43,7 @@ class BasepixContactActions extends sfActions{
 
             // on envoie le mail
             $message = Swift_Message::newInstance()
-                    ->setFrom(sfConfig::get('app_pixContact_email_from'))
+                    ->setFrom($contact->getEmail())
                     ->setTo(sfConfig::get('app_pixContact_email_to'))
                     ->setSubject(sfConfig::get('app_pixContact_email_subject') . ' ' . $contact->getFullName())
                     ->setContentType('text/html')
@@ -57,7 +57,7 @@ class BasepixContactActions extends sfActions{
             $this->getMailer()->send($message);
 
             $this->getUser()->setFlash('confirmation', 'label_contact_confirmation_envoi');
-            $this->redirect('@pix_contact');
+            $this->redirect(sfConfig::get('app_pixContact_redirect_url'));
         }
     }
 }

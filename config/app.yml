@@ -3,14 +3,16 @@ all:
     cookie_name: your_cookie_name
     routes_register: true
 
+  ## configure this in your own app.yml
   pixContact:
     email_subject: '[client] Formulaire de contact'
-    email_from: you@domain.com
     email_to: you@domain.com
-    email_bcc: [you@domain.com]
+    #email_bcc: [you@domain.com]
+    redirect_url: '@pix_contact'
 
+  ## configure this in your own app.yml
   pixNewsletter:
-    email_subject: '[client] Formulaire de contact'
+    email_subject: '[client] Newsletter'
     email_from: you@domain.com
     email_to: you@domain.com
-    email_bcc: [you@domain.com]
+    #email_bcc: [you@domain.com]
