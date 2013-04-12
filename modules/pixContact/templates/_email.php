@@ -26,37 +26,13 @@
         </td>
       </tr>
       <tr>
-        <th><?php echo $form['societe']->renderLabel() ?></th>
-        <td>
-         <?php echo $contact->societe; ?>
-        </td>
-      </tr>
-      <tr>
         <th><?php echo $form['email']->renderLabel() ?></th>
         <td>
           <?php echo $contact->email; ?>
         </td>
       </tr>
       <tr>
-        <th><?php echo $form['address']->renderLabel() ?></th>
-        <td>
-         <?php echo $contact->address; ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['postcode']->renderLabel() ?></th>
-        <td>
-         <?php echo $contact->postcode; ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['city']->renderLabel() ?></th>
-        <td>
-         <?php echo $contact->city; ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['country']->renderLabel() ?></th>
+        <th><?php echo $form['subject']->renderLabel() ?></th>
         <td>
          <?php echo $contact->country; ?>
         </td>

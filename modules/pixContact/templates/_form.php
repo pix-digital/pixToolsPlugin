@@ -7,6 +7,8 @@
     <form action="<?php echo url_for('@pix_contact_validation') ?>"
           method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
 
+        <?php echo $form->renderHiddenFields(true); ?>
+
         <fieldset class="form">
 
             <?php if (!$form->getObject()->isNew()): ?>

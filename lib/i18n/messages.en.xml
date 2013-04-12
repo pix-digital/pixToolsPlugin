@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="en" datatype="plaintext" original="messages">
+        <body>
+            <trans-unit>
+                <source>label_titre_formulaire</source>
+                <target>Contact</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_title</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_lastname</source>
+                <target>Lastname</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_firstname</source>
+                <target>Firstname</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_phone</source>
+                <target>Phone</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_subject</source>
+                <target>Subject</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_comments</source>
+                <target>Comments</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_option_mme</source>
+                <target>Mrs</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_option_mlle</source>
+                <target>Miss</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_option_mr</source>
+                <target>Mr</target>
+            </trans-unit>
+            <trans-unit>
+                <source>label_contact_confirmation_envoi</source>
+                <target>Your message has successfully been sent.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Required.</source>
+                <target>This field is required.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

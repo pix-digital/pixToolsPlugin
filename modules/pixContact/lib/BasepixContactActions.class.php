@@ -57,7 +57,7 @@ class BasepixContactActions extends sfActions{
             $this->getMailer()->send($message);
 
             $this->getUser()->setFlash('confirmation', 'label_contact_confirmation_envoi');
-            $this->redirect(sfConfig::get('app_pixContact_redirect_url'));
+            $this->redirect(sfConfig::get('app_pixContact_redirect_url','@pix_contact'));
         }
     }
 }

@@ -7,7 +7,7 @@ all:
   pixContact:
     email_subject: '[client] Formulaire de contact'
     email_to: you@domain.com
-    #email_bcc: [you@domain.com]
+    email_bcc: []
     redirect_url: '@pix_contact'
 
   ## configure this in your own app.yml
@@ -15,4 +15,4 @@ all:
     email_subject: '[client] Newsletter'
     email_from: you@domain.com
     email_to: you@domain.com
-    #email_bcc: [you@domain.com]
+    email_bcc: []
