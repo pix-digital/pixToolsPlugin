@@ -29,16 +29,13 @@ abstract class PluginContactForm extends BaseContactForm
         $this->validatorSchema['email'] = new sfValidatorEmail();
 
         $this->widgetSchema->setLabels(array(
-          'title'                        => 'label_contact_title',
-          'lastname'                     => 'label_contact_lastname',
-          'firstname'                    => 'label_contact_firstname',
-          'address'                      => 'label_contact_address',
-          'postcode'                     => 'label_contact_postcode',
-          'city'                         => 'label_contact_city',
-          'country'                      => 'label_contact_country',
-          'phone'                        => 'label_contact_phone',
-          'email'                        => 'label_contact_email',
-          'comments'                     => 'label_contact_comments',
+          'title'          => 'label_contact_title',
+          'lastname'       => 'label_contact_lastname',
+          'firstname'      => 'label_contact_firstname',
+          'phone'          => 'label_contact_phone',
+          'email'          => 'label_contact_email',
+          'subject'        => 'label_contact_subject',
+          'comments'       => 'label_contact_comments',
       ));
     }
 }

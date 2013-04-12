@@ -55,6 +55,11 @@ Configure the app.yml
       
 Remember you can extend the model if you wish in your own schema.yml
 
+To include the contact form in your templates, you can use the following component
+
+    [php]
+    <?php include_component('pixContact', 'form'); ?>
+
 
 ### pixNewsletter
 

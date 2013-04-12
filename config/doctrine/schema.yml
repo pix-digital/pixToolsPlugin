@@ -3,16 +3,11 @@ Contact:
     Timestampable:
 
   columns:
-    title: { type: string(50), notnull: true }
-    lastname: { type: string(255), notnull: true }
-    firstname: { type: string(255), notnull: false }
-    phone: { type: string(255), notnull: true }
-    email: { type: string(255), notnull: true }
-    company: { type: string(255), notnull: false }
-    address: { type: string(255), notnull: false }
-    postcode: { type: string(50), notnull: true }
-    city: { type: string(255), notnull: true }
-    country: { type: string(255), notnull: true }
+    lastname: string(255)
+    firstname: string(255)
+    phone: string(50)
+    email: string(255)
+    subject: string(255)
     comments: clob
     referer: clob
     host: varchar(255)
