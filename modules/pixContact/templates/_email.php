@@ -34,7 +34,7 @@
       <tr>
         <th><?php echo $form['subject']->renderLabel() ?></th>
         <td>
-         <?php echo $contact->country; ?>
+         <?php echo $contact->subject; ?>
         </td>
       </tr>
       <tr>
