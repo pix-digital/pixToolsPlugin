@@ -2,12 +2,6 @@
 <table>
     <tbody>
       <tr>
-        <th><?php echo $form['title']->renderLabel() ?></th>
-        <td>
-          <?php echo $contact->title; ?>
-        </td>
-      </tr>
-      <tr>
         <th><?php echo $form['lastname']->renderLabel() ?></th>
         <td>
           <?php echo $contact->lastname; ?>
